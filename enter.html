@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="en" translate="no"> 
+<head> 
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8"> 
+  <title>enter</title> 
+  <link rel="stylesheet" href="style2.css"/> 
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+</head> 
+<body> 
+  <iframe src="sign.html"></iframe>
+  <section id="page2">
+  <div class="corp">
+    <div class="fermer" onclick="closeBox()"> &#10005;</div>
+  <h1 class="titre"> 
+    Connexion to Mywebsite. 
+  </h1> 
+  <div class="buttons"> 
+    <button class="but"><a href="#" class="sans"> <i class="fa fa-google" aria-hidden="true"></i>Sign in with Google
+       
+    </a></button> 
+  </div> 
+     <div class="buttons"> 
+    <button class="but"> <a href="#" class="sans"> <i class="fa fa-facebook" aria-hidden="true"> </i>
+      Sign in with Facebook
+      
+    </a></button> 
+     </div> 
+     <div class="buttons"> 
+      
+    <button class="but"><a href="connexion.html" class="sans"> <i class="fa fa-envelope" aria-hidden="true"> </i>Sign in with email
+      
+    </a></button> 
+    
+  </div> 
+  <p class="sig"> Connexion </p>
+  <article class="rul"> 
+     Click"to the link" to read the<br/> medium's<a href="#" class="term">Terms of service 
+     </a> and<br/>acknowledge that Medium's<br/> <a href="#" class="term">Privacy Policy</a> applies to you. 
+  </article> 
+  </div> 
+  </section>
+ 
+<script type="text/javascript">
+  const iframe = document.createElement('iframe');
+  iframe.src = 'sign.html';
+  document.body.appendChild(iframe);
+
+  const fermer = document.querySelector(".fermer");
+  fermer.onclick = function() {
+    document.querySelector("section").style.display = "none";
+    iframe.style.display = 'block';
+  };
+</script>
+
+  
+</body> 
+</html>

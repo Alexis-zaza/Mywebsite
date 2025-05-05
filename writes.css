@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3{
+  text-decoration-color: rosybrown;
+  margin-left: 1%;
+}
+#ecrits{
+  height: 200px;
+  width:90%;
+  margin-left: 2%;
+  color: gray;
+  margin-top: 2%;
+  overflow-x:scroll;
+}
+.number{
+  margin-left: 1%;
+}
+#submit{
+  margin-left: 75%;
+  height: 10%;
+  border-radius: 5px;
+  width: 17%;
+}

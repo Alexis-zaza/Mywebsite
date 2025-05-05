@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+         
+  }
+body{
+  background:url(im.jpg);
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+    background-size: cover;
+    with:100%;
+    background-position: fixed;
+}
+#page2{
+  background-color:transparent;/*pour creer un effet invisible*/
+  border-radius: 20px;
+  padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);/*pour flouter l'arriere plan au niveau de la boite*/
+    
+    margin-left: 250px;
+    margin-top: 250px;
+    height: auto;
+    
+}
+
+.titre {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #333; /* Couleur plus foncée pour le texte */
+  margin-bottom: 90px; /* Espacement sous le titre */
+  text-align: center;
+}
+
+.buttons {
+  margin-bottom:8px; /* Espacement entre les groupes de boutons */
+}
+
+.but {
+    background: transparent;
+  color:black; 
+  /* Retire la bordure par défaut */
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 90px;
+  margin: 2.5px;
+  width:470px;
+  height: 80px;
+    border:3px solid rgba(0 0 0 0.5);
+}
+ .but i {
+     font-size: 30px;
+     left: 10%;
+     flex: 1;
+     position: absolute
+ }
+.but a {
+  text-decoration: none;
+  color: black;
+}
+
+.sig {
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+a.si {
+  color: #1a8917; /* Lien en vert pour "Sign in" */
+}
+
+a.term {
+  color: #666; /* Couleur grise pour les termes */
+}
+.rul{
+  font-size: 0.99rem;
+  text-align: center;
+  margin-top: 55px;
+}
+iframe{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+.fermer{
+  position: relative; /* Place la croix en haut à droite de la boîte */
+  top: 5px; /* Ajuste la position verticale */
+  left: 90%; /* Ajuste la position horizontale */
+  font-size: 1rem; /* Taille de la croix */
+  font-weight: bold;
+  color: #666; /* Couleur grise */
+  cursor: pointer; /* Change le curseur en main au survol */
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.fermer:hover {
+  color: #000; /* Change la couleur au survol */
+}
+
